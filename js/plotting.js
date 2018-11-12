@@ -24,9 +24,9 @@ $(function() {
 	$("<div id='tooltip'></div>").css({
 		position: "absolute",
 		display: "none",
-		border: "1px solid #fdd",
+		border: "1px solid #007bff",
 		padding: "2px",
-		"background-color": "#fee",
+		"background-color": "#E5F1FF",
 		opacity: 0.80
 	}).appendTo("body");
 

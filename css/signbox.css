@@ -11,6 +11,16 @@
 	right:10px;
 }
 
+
+#placeholder {
+	width:800px;
+	height:500px;
+}
+
+#calcgroup {
+	width:35%;
+}
+
 @font-face{
 	font-family:'prstartk';
 	src:url("../fonts/prstartk.ttf") format("truetype");
