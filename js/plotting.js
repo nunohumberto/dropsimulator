@@ -14,7 +14,7 @@ $(function() {
 			image = (1 - image)*100; 
 			dataset.push([i, image]);
 		}	
-		$.plot($("#placeholder"), [dataset], {series: {lines: {show: true},	points: {show: false}},	grid: {hoverable: true}, yaxis: { max: 100 , min: 0, tickFormatter: perc}, xaxis: { max: 10000 , min: 0},  colors: ["#83EB8B"] });
+		$.plot($("#placeholder"), [dataset], {series: {lines: {show: true},	points: {show: false}},	grid: {hoverable: true}, yaxis: { max: 100 , min: 0, tickFormatter: perc}, xaxis: { max: 10000 , min: 0},  colors: ["#007bff"] });
 		return false;
 	});	
 	
